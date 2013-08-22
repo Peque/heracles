@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title ""
+Title "Heracles"
 Date "22 aug 2013"
-Rev ""
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
