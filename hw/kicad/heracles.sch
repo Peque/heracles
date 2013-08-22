@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "19 aug 2013"
+Date "22 aug 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -92,5 +92,15 @@ F1 "oscillator.sch" 50
 F2 "GND" U L 6250 5650 60 
 F3 "OSC_IN" O L 6250 5350 60 
 F4 "OSC_OUT" I L 6250 5450 60 
+$EndSheet
+$Sheet
+S 8200 5300 750  800 
+U 521620C8
+F0 "Buttons" 50
+F1 "buttons.sch" 50
+F2 "~RST" O L 8200 5500 60 
+F3 "USR" O L 8200 5600 60 
+F4 "3V3" U L 8200 5800 60 
+F5 "GND" U L 8200 5900 60 
 $EndSheet
 $EndSCHEMATC
