@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date "22 aug 2013"
 Rev ""
@@ -102,5 +102,15 @@ F2 "~RST" O L 8200 5500 60
 F3 "USR" O L 8200 5600 60 
 F4 "3V3" U L 8200 5800 60 
 F5 "GND" U L 8200 5900 60 
+$EndSheet
+$Sheet
+S 7100 1700 700  900 
+U 52163769
+F0 "Gyroscope" 50
+F1 "gyroscope.sch" 50
+F2 "OUTZ" O L 7100 1900 60 
+F3 "SLEEP" I L 7100 2100 60 
+F4 "3V3" U L 7100 2300 60 
+F5 "GND" U L 7100 2400 60 
 $EndSheet
 $EndSCHEMATC
