@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Heracles"
 Date "24 aug 2013"
 Rev "2.0"
@@ -171,5 +171,17 @@ F1 "speaker.sch" 50
 F2 "SIGNAL" I L 5100 1850 60 
 F3 "GND" U L 5100 2150 60 
 F4 "VSPEAKER" U L 5100 2050 60 
+$EndSheet
+$Sheet
+S 8450 1550 900  1050
+U 5218F954
+F0 "Accelerometer" 50
+F1 "accelerometer.sch" 50
+F2 "Xout" O L 8450 1750 60 
+F3 "Yout" O L 8450 1850 60 
+F4 "~SLEEP" I L 8450 2150 60 
+F5 "g-Select" I L 8450 2050 60 
+F6 "3V3" U L 8450 2350 60 
+F7 "GND" U L 8450 2450 60 
 $EndSheet
 $EndSCHEMATC
