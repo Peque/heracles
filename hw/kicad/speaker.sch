@@ -113,8 +113,6 @@ Wire Wire Line
 	5100 2350 4750 2350
 Wire Wire Line
 	4750 2350 4750 2550
-Wire Wire Line
-	4750 2550 4250 2550
 Text Label 4600 3700 2    60   ~ 0
 GND
 Wire Wire Line
@@ -145,4 +143,7 @@ Connection ~ 4250 3700
 Wire Wire Line
 	3950 3000 3100 3000
 NoConn ~ 5400 2550
+Wire Wire Line
+	4750 2550 4250 2550
+Connection ~ 4250 2550
 $EndSCHEMATC
