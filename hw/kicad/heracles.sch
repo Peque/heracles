@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Heracles"
-Date "22 aug 2013"
+Date "24 aug 2013"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -162,5 +162,15 @@ F42 "PD1-OSC_OUT" O L 2550 2900 60
 F43 "PC13-TAMPER-RTC" B L 2550 3050 60 
 F44 "PC14-OSC32_IN" B L 2550 3150 60 
 F45 "PC15-OSC32_OUT" B L 2550 3250 60 
+$EndSheet
+$Sheet
+S 5100 1650 800  800 
+U 5218DFC1
+F0 "Speaker" 50
+F1 "speaker.sch" 50
+F2 "SIGNAL" I L 5100 1850 60 
+F3 "GND" U L 5100 2250 60 
+F4 "VSPEAKER" U L 5100 2050 60 
+F5 "3V3" U L 5100 2150 60 
 $EndSheet
 $EndSCHEMATC

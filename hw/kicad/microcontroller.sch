@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title "Microcontroller"
-Date "22 aug 2013"
+Date "24 aug 2013"
 Rev "1.0"
 Comp ""
 Comment1 ""
