@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:reset
-LIBS:heracles-cache
 EELAYER 27 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
 Sheet 8 9
 Title "Speaker"
-Date "24 aug 2013"
+Date "25 aug 2013"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -91,17 +90,6 @@ Text Label 4250 1400 3    60   ~ 0
 VSPEAKER
 Text Label 3100 3000 0    60   ~ 0
 SIGNAL
-$Comp
-L ZENER D?
-U 1 1 5218FC51
-P 4250 2250
-F 0 "D?" H 4250 2350 50  0000 C CNN
-F 1 "CD0603-Z3" H 4250 2150 40  0000 C CNN
-F 2 "SM0603" H 4250 2250 60  0001 C CNN
-F 3 "~" H 4250 2250 60  0000 C CNN
-	1    4250 2250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4250 1950 4750 1950
 Wire Wire Line
@@ -146,4 +134,15 @@ NoConn ~ 5400 2550
 Wire Wire Line
 	4750 2550 4250 2550
 Connection ~ 4250 2550
+$Comp
+L DIODESCH D?
+U 1 1 521962A3
+P 4250 2250
+F 0 "D?" H 4250 2350 40  0000 C CNN
+F 1 "CDBU0530" H 4250 2150 40  0000 C CNN
+F 2 "SM0603" H 4250 2250 60  0001 C CNN
+F 3 "" H 4250 2250 60  0000 C CNN
+	1    4250 2250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
