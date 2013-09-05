@@ -36,7 +36,7 @@ $Descr User 8268 5827
 encoding utf-8
 Sheet 8 9
 Title "Speaker"
-Date "25 aug 2013"
+Date "5 sep 2013"
 Rev "1.0"
 Comp ""
 Comment1 ""
@@ -135,13 +135,13 @@ Wire Wire Line
 	4750 2550 4250 2550
 Connection ~ 4250 2550
 $Comp
-L DIODESCH D?
-U 1 1 521962A3
+L DIODE D?
+U 1 1 522930BE
 P 4250 2250
 F 0 "D?" H 4250 2350 40  0000 C CNN
-F 1 "CDBU0530" H 4250 2150 40  0000 C CNN
-F 2 "SM0603" H 4250 2250 60  0001 C CNN
-F 3 "" H 4250 2250 60  0000 C CNN
+F 1 "DIODE" H 4250 2150 40  0000 C CNN
+F 2 "SM1206" H 4250 2500 60  0001 C CNN
+F 3 "S01575" H 4250 2600 60  0001 C CNN
 	1    4250 2250
 	0    -1   -1   0   
 $EndComp
