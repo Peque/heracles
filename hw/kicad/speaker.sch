@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:reset
+LIBS:heracles-cache
 EELAYER 27 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title "Speaker"
-Date "5 sep 2013"
+Date "13 dec 2013"
 Rev "1.0"
 Comp ""
 Comment1 ""

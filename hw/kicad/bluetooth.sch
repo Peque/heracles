@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "Bluetooth"
-Date "24 aug 2013"
+Date "13 dec 2013"
 Rev "2.0"
 Comp ""
 Comment1 ""

@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Motor driver"
-Date "24 aug 2013"
+Date "13 dec 2013"
 Rev "1.1"
 Comp ""
 Comment1 ""
