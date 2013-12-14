@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "Heracles"
-Date "13 dec 2013"
+Date "14 dec 2013"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -196,5 +196,17 @@ F5 "USBP" B L 9500 3500 60
 F6 "USBM" B L 9500 3600 60 
 F7 "USB_SENSOR" O L 9500 3800 60 
 F8 "USB_PU" I L 9500 3900 60 
+$EndSheet
+$Sheet
+S 9600 5100 850  1050
+U 52AAF62E
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "VIN" U L 9600 5650 60 
+F3 "GND" U L 9600 5850 60 
+F4 "PGND" U L 9600 5950 60 
+F5 "VO" U L 9600 5750 60 
+F6 "LB" O L 9600 5300 60 
+F7 "PG" O L 9600 5400 60 
 $EndSheet
 $EndSCHEMATC

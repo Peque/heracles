@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title "Gyroscope"
-Date "13 dec 2013"
+Date "14 dec 2013"
 Rev "1.0"
 Comp ""
 Comment1 ""
