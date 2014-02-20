@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 20 Feb 2014 18:47:47 CET
+PCBNEW-LibModule-V1  Thu 20 Feb 2014 20:35:13 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -9,6 +9,7 @@ LGA14
 LQFP48
 LY330ALH
 MAPLE_MINI
+MICRO_USB
 MMA6341L
 Micrometal
 NRS4018T2R2MDGJ
@@ -1458,6 +1459,108 @@ Ne 0 ""
 Po 11.43 -7.62
 $EndPAD
 $EndMODULE MAPLE_MINI
+$MODULE MICRO_USB
+Po 0 0 0 15 530658C6 00000000 ~~
+Li MICRO_USB
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.8 0.762 0.762 0 0.127 N V 21 N "MICRO_USB"
+T1 0.2 0.7 0.762 0.762 0 0.127 N V 21 N "VAL**"
+DS -4.3 -6 -4.1 -6 0.15 21
+DS -4.3 0 -4.2 0 0.15 21
+DS -4.3 -1.4 -4.3 0 0.15 21
+DS -4.3 -1.4 -4.3 -6 0.15 21
+DS -4 -6 4.1 -6 0.15 21
+DS -4 -6 -4.1 -6 0.15 21
+DS -4.1 -6 -4.2 -6 0.15 21
+DS -4.2 0 -4 0 0.15 21
+DS -4.1 0 4.3 0 0.15 21
+DS 4.3 0 4.3 -6 0.15 21
+DS 4.3 -6 4.1 -6 0.15 21
+$PAD
+Sh "" C 0.8 0.8 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.9 -4.35
+$EndPAD
+$PAD
+Sh "" R 1.25 1.4 0 0 0
+Dr 0.9 0 0 O 0.9 1.1
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.3 -5.25
+$EndPAD
+$PAD
+Sh "" R 1.25 2 0 0 0
+Dr 0.9 0 0 O 0.9 1.6
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.6 -2.45
+$EndPAD
+$PAD
+Sh "1" R 0.39878 1.3462 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.29794 -5.12496
+.LocalClearance 0.2032
+$EndPAD
+$PAD
+Sh "2" R 0.39878 1.3462 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.6477 -5.12496
+.LocalClearance 0.2032
+$EndPAD
+$PAD
+Sh "3" R 0.39878 1.3462 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -5.12496
+.LocalClearance 0.2032
+$EndPAD
+$PAD
+Sh "4" R 0.39878 1.3462 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.6477 -5.12496
+.LocalClearance 0.2032
+$EndPAD
+$PAD
+Sh "5" R 0.39878 1.3462 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.29794 -5.12496
+.LocalClearance 0.2032
+$EndPAD
+$PAD
+Sh "" R 1.25 2 0 0 0
+Dr 0.9 0 0 O 0.9 1.6
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.6 -2.45
+$EndPAD
+$PAD
+Sh "" R 1.25 1.4 0 0 0
+Dr 0.9 0 0 O 0.9 1.1
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.3 -5.25
+$EndPAD
+$PAD
+Sh "" C 0.8 0.8 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.95 -4.35
+$EndPAD
+$EndMODULE MICRO_USB
 $MODULE MMA6341L
 Po 0 0 0 15 53063FB8 00000000 ~~
 Li MMA6341L
