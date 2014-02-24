@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
 Title "Heracles"
-Date "20 feb 2014"
+Date "24 feb 2014"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -255,7 +255,7 @@ Text Label 1050 5700 0    60   ~ 0
 Text Label 1050 5800 0    60   ~ 0
 GND
 Text Label 3750 2100 0    60   ~ 0
-A3V3
+L3V3
 $Sheet
 S 1350 3500 2050 3450
 U 52166495
@@ -561,7 +561,7 @@ BTRX
 Text Label 5750 3800 0    60   ~ 0
 BTTX
 Text Label 5750 4000 0    60   ~ 0
-L3V3
+BTAT
 Text Label 5750 4100 0    60   ~ 0
 BTRST
 Text Label 4500 5650 0    60   ~ 0
@@ -667,7 +667,7 @@ MPWMA
 Text Label 3700 6000 2    60   ~ 0
 MPWMB
 Text Label 3700 6100 2    60   ~ 0
-PB8
+BTAT
 Text Label 3700 6200 2    60   ~ 0
 PB9
 Text Label 3700 6300 2    60   ~ 0
