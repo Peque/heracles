@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Thu 20 Feb 2014 18:54:36 CET
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Thu 13 Mar 2014 17:53:52 CET
 
 BeginCmp
 TimeStamp = /509B0C31/509B1393;
@@ -18,20 +18,6 @@ BeginCmp
 TimeStamp = /509B0C31/509B13AD;
 Reference = C3;
 ValeurCmp = 10uF , 20V;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /5212925E/52129888;
-Reference = C4;
-ValeurCmp = 18pF;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /5212925E/52129895;
-Reference = C5;
-ValeurCmp = 18pF;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -165,7 +151,7 @@ BeginCmp
 TimeStamp = /52AB11DF/52AC19F1;
 Reference = J1;
 ValeurCmp = USB-MICRO;
-IdModule  = ;
+IdModule  = MICRO_USB;
 EndCmp
 
 BeginCmp
@@ -208,6 +194,41 @@ TimeStamp = /52B008EC;
 Reference = P4;
 ValeurCmp = MOTOR_B;
 IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53238CAD;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53221BD1;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53221BE8;
+Reference = P7;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53221D20;
+Reference = P8;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53221D26;
+Reference = P9;
+ValeurCmp = CONN_8;
+IdModule  = pin_array_8;
 EndCmp
 
 BeginCmp
@@ -404,13 +425,6 @@ TimeStamp = /52166495/521666D7;
 Reference = U5;
 ValeurCmp = STM32F103CBT6;
 IdModule  = LQFP48;
-EndCmp
-
-BeginCmp
-TimeStamp = /5212925E/521298E8;
-Reference = X1;
-ValeurCmp = 8MHz;
-IdModule  = ;
 EndCmp
 
 EndListe
