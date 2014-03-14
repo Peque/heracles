@@ -236,7 +236,7 @@ GND
 Text Label 900  2600 0    60   ~ 0
 VMOT
 Text Label 900  2500 0    60   ~ 0
-M_GND
+GND
 Text Label 900  2400 0    60   ~ 0
 M_VIN
 Text Label 1100 5750 0    60   ~ 0
@@ -574,7 +574,7 @@ MAO1
 Text Label 10800 3950 2    60   ~ 0
 MAO2
 Text Label 10800 4150 2    60   ~ 0
-MBO2
+MBO1
 Text Label 10800 4250 2    60   ~ 0
 MBO2
 Text Label 2400 1000 2    60   ~ 0
@@ -674,9 +674,9 @@ MPWMA
 Text Label 9200 4200 0    60   ~ 0
 MSTBY
 Text Label 1100 4600 0    60   ~ 0
-OSC_IN
+PD0
 Text Label 1100 4700 0    60   ~ 0
-OSC_OUT
+PD1
 Text Label 1100 4450 0    60   ~ 0
 BOOT0
 Text Label 1100 5200 0    60   ~ 0
@@ -690,9 +690,9 @@ GSLP
 Text Label 1100 5050 0    60   ~ 0
 BTRST
 Text Label 1100 4850 0    60   ~ 0
-USR_BTN
+PC13
 Text Label 1100 5500 0    60   ~ 0
-A3V3
+L3V3
 Text Label 1100 5600 0    60   ~ 0
 GND
 $Sheet
@@ -841,36 +841,36 @@ PB14
 Text Label 5400 900  0    60   ~ 0
 PB15
 Wire Wire Line
+	2550 2600 2250 2600
+Wire Wire Line
 	2550 2500 2250 2500
-Wire Wire Line
-	2550 2400 2250 2400
-Wire Wire Line
-	2550 2900 2250 2900
 Wire Wire Line
 	2550 2800 2250 2800
 Wire Wire Line
+	2550 2900 2250 2900
+Wire Wire Line
 	2550 2200 2250 2200
 Wire Wire Line
-	2550 2300 2250 2300
-Wire Wire Line
-	2550 2600 2250 2600
+	2550 2400 2250 2400
 Wire Wire Line
 	2550 2700 2250 2700
+Wire Wire Line
+	2550 2300 2250 2300
 Text Label 2250 2200 0    60   ~ 0
 BOOT0
-Text Label 2250 2600 0    60   ~ 0
-RST_BTN
 Text Label 2250 2700 0    60   ~ 0
-L3V3
-Text Label 2250 2400 0    60   ~ 0
-GSLP
-Text Label 2250 2500 0    60   ~ 0
-BTRST
+RST_BTN
 Text Label 2250 2300 0    60   ~ 0
-USR_BTN
-Text Label 2250 2800 0    60   ~ 0
-A3V3
+L3V3
+Text Label 2250 2500 0    60   ~ 0
+GSLP
+Text Label 2250 2600 0    60   ~ 0
+BTRST
+Text Label 2250 2400 0    60   ~ 0
+PC13
 Text Label 2250 2900 0    60   ~ 0
+A3V3
+Text Label 2250 2800 0    60   ~ 0
 GND
 $Comp
 L CONN_8 P5

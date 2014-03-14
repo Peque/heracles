@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = Thu 13 Mar 2014 17:53:52 CET
+Cmp-Mod V01 Created by PcbNew date = Fri 14 Mar 2014 00:56:03 CET
 
 BeginCmp
 TimeStamp = /509B0C31/509B1393;
@@ -235,14 +235,14 @@ BeginCmp
 TimeStamp = /5218DFC1/5218EE5A;
 Reference = Q1;
 ValeurCmp = FDV301N;
-IdModule  = SOT23;
+IdModule  = FDV301;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AB11DF/52AC1B46;
 Reference = Q2;
 ValeurCmp = FDV304P;
-IdModule  = SOT23;
+IdModule  = FDV301;
 EndCmp
 
 BeginCmp
@@ -389,7 +389,7 @@ BeginCmp
 TimeStamp = /52AAF62E/52E3894B;
 Reference = T2;
 ValeurCmp = LM3480;
-IdModule  = SOT23;
+IdModule  = FDV301;
 EndCmp
 
 BeginCmp
