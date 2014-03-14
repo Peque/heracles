@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
 Title "Heracles"
-Date "13 mar 2014"
+Date "14 mar 2014"
 Rev "2.0"
 Comp ""
 Comment1 ""
@@ -692,7 +692,7 @@ BTRST
 Text Label 1100 4850 0    60   ~ 0
 PC13
 Text Label 1100 5500 0    60   ~ 0
-L3V3
+A3V3
 Text Label 1100 5600 0    60   ~ 0
 GND
 $Sheet
