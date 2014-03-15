@@ -1,0 +1,66 @@
+#!/bin/bash
+
+#
+#  bt_connect
+#
+#  Copyright 2014 Miguel Sánchez de León Peque <msdeleonpeque@gmail.com>
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#  MA 02110-1301, USA.
+#
+#
+
+# Turn up BT
+hcidev=$(hciconfig dev | head -n 1 | cut -d: -f1)
+rfkill unblock $(rfkill list | grep $hcidev | cut -d: -f1)
+hciconfig $hcidev up
+rfcomm release $hcidev 2> /dev/null
+
+# Scan for remote devices (exit when no remote devices found)
+echo "Scanning remote devices..."
+scanned_devices=$(hcitool scan | grep -e "\(..:\)\{5\}")
+if [ -z "$scanned_devices" ]; then
+	echo "No remote devices found!"
+	exit
+fi
+
+# Ask the user to select remote device
+n_scanned_devices=$(echo "$scanned_devices" | wc -l)
+echo "$scanned_devices" | grep -e ".*" -n
+echo -n "Select device number (from 1 to $n_scanned_devices): "
+read dev_n
+mac_list=$(echo "$scanned_devices" | sed -e "s/.*\(\(..:\)\{5\}..\).*/\1/")
+mac=$(echo "$mac_list" | head -n $dev_n | tail -n 1)
+if [ -z "$mac" ]; then
+	echo "Invalid remote device!"
+	exit
+fi
+
+# Create connection to remote device (channel 1)
+echo "Connecting to remote device $mac..."
+channel=1
+rfcomm bind $hcidev $mac $channel
+dev_rfcomm=$(rfcomm show $hcidev | cut -d: -f1)
+
+# Launch screen session or leave connection opened
+echo -n "Do you want to start a screen session? (y/n): "
+read a
+if [[ $a == "Y" || $a == "y" ]]; then
+	screen /dev/$dev_rfcomm
+	rfcomm release $hcidev
+else
+	echo "Leaving connection opened in /dev/$dev_rfcomm"
+fi
+
