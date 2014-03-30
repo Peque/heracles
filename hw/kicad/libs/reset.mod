@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 30 Mar 2014 21:37:26 CEST
+PCBNEW-LibModule-V1  Sun 30 Mar 2014 21:45:19 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -1081,7 +1081,7 @@ Po -2.75082 -4.29768
 $EndPAD
 $EndMODULE LQFP48
 $MODULE LY330ALH
-Po 0 0 0 15 53063C97 00000000 ~~
+Po 0 0 0 15 5338743E 00000000 ~~
 Li LY330ALH
 Sc 0
 AR 
@@ -1095,73 +1095,73 @@ DS 2.6 1.7 2.6 -1.7 0.15 21
 DS 2.6 -1.7 -2.6 -1.7 0.15 21
 $PAD
 Sh "9" R 0.7 1.6 0 0 0
-Dr 0 0 -0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.017 -1.1
+Po 2.017 -1.6
 $EndPAD
 $PAD
 Sh "6" R 0.7 1.6 0 0 0
-Dr 0 0 -0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.017 -1.1
+Po -2.017 -1.6
 $EndPAD
 $PAD
 Sh "8" R 0.7 1.6 0 0 0
-Dr 0 0 -0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.635 -1.1
+Po 0.635 -1.6
 $EndPAD
 $PAD
 Sh "7" R 0.7 1.6 0 0 0
-Dr 0 0 -0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.635 -1.1
+Po -0.635 -1.6
 $EndPAD
 $PAD
 Sh "3" R 0.7 1.6 0 0 0
-Dr 0 0 0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.635 1.1
+Po -0.635 1.6
 $EndPAD
 $PAD
 Sh "2" R 0.7 1.6 0 0 0
-Dr 0 0 0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.635 1.1
+Po 0.635 1.6
 $EndPAD
 $PAD
 Sh "4" R 0.7 1.6 0 0 0
-Dr 0 0 0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.017 1.1
+Po -2.017 1.6
 $EndPAD
 $PAD
 Sh "1" R 0.7 1.6 0 0 0
-Dr 0 0 0.5
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.017 1.1
+Po 2.017 1.6
 $EndPAD
 $PAD
 Sh "5" R 1.9 0.7 0 0 0
-Dr 0 -0.45 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2.017 0
+Po -2.467 0
 $EndPAD
 $PAD
 Sh "10" R 1.9 0.7 0 0 0
-Dr 0 0.45 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.017 0
+Po 2.467 0
 $EndPAD
 $EndMODULE LY330ALH
 $MODULE MAPLE_MINI
