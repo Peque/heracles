@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Fri 14 Mar 2014 01:05:06 CET
+PCBNEW-LibModule-V1  Sun 30 Mar 2014 21:37:26 CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -1565,7 +1565,7 @@ Po 1.95 -4.35
 $EndPAD
 $EndMODULE MICRO_USB
 $MODULE MMA6341L
-Po 0 0 0 15 53063FB8 00000000 ~~
+Po 0 0 0 15 5338725B 00000000 ~~
 Li MMA6341L
 Sc 0
 AR 
@@ -1580,101 +1580,101 @@ DS 1.5 -2.4 1.5 -2.5 0.15 21
 DS 1.5 -2.5 0 -2.5 0.15 21
 $PAD
 Sh "14" R 0.5 1.6 0 0 0
-Dr 0 0 0.4
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 -3
+Po 0 -2.6
 $EndPAD
 $PAD
 Sh "8" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 2
+Po -1.4 2
 $EndPAD
 $PAD
 Sh "9" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 1.2
+Po -1.4 1.2
 $EndPAD
 $PAD
 Sh "12" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 -1.2
+Po -1.4 -1.2
 $EndPAD
 $PAD
 Sh "13" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 -2
+Po -1.4 -2
 $EndPAD
 $PAD
 Sh "11" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 -0.4
+Po -1.4 -0.4
 $EndPAD
 $PAD
 Sh "1" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 -2
+Po 1.4 -2
 $EndPAD
 $PAD
 Sh "2" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 -1.2
+Po 1.4 -1.2
 $EndPAD
 $PAD
 Sh "5" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 1.2
+Po 1.4 1.2
 $EndPAD
 $PAD
 Sh "6" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 2
+Po 1.4 2
 $EndPAD
 $PAD
 Sh "4" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 0.4
+Po 1.4 0.4
 $EndPAD
 $PAD
 Sh "3" R 1.6 0.5 0 0 0
-Dr 0 0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 -0.4
+Po 1.4 -0.4
 $EndPAD
 $PAD
 Sh "10" R 1.6 0.5 0 0 0
-Dr 0 -0.4 0
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 0.4
+Po -1.4 0.4
 $EndPAD
 $PAD
 Sh "7" R 0.5 1.6 0 0 0
-Dr 0 0 0.4
+Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 2
+Po 0 2.4
 $EndPAD
 $EndMODULE MMA6341L
 $MODULE Micrometal
