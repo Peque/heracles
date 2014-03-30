@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 30 Mar 2014 21:45:19 CEST
+PCBNEW-LibModule-V1  Sun 30 Mar 2014 10:44:23 PM CEST
 # encoding utf-8
 Units mm
 $INDEX
@@ -1463,7 +1463,7 @@ Po 11.43 -7.62
 $EndPAD
 $EndMODULE MAPLE_MINI
 $MODULE MICRO_USB
-Po 0 0 0 15 530658C6 00000000 ~~
+Po 0 0 0 15 533880F4 00000000 ~~
 Li MICRO_USB
 Sc 0
 AR 
@@ -1484,9 +1484,11 @@ DS 4.3 -6 4.1 -6 0.15 21
 $PAD
 Sh "" C 0.8 0.8 0 0 0
 Dr 0.8 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
-Po -1.9 -4.35
+Po -1.95 -4.35
+.LocalClearance 0.01
+.ZoneConnection 0
 $EndPAD
 $PAD
 Sh "" R 1.25 1.4 0 0 0
@@ -1559,9 +1561,11 @@ $EndPAD
 $PAD
 Sh "" C 0.8 0.8 0 0 0
 Dr 0.8 0 0
-At STD N 00E0FFFF
+At HOLE N 00E0FFFF
 Ne 0 ""
 Po 1.95 -4.35
+.LocalClearance 0.01
+.ZoneConnection 0
 $EndPAD
 $EndMODULE MICRO_USB
 $MODULE MMA6341L
