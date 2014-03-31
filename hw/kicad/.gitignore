@@ -1,4 +1,16 @@
 *.bak
 *.bck
 *.dcm
+*.drl
+*.gbl
+*.gbo
+*.gbp
+*.gbr
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.pho
+*-bak
 *-cache.lib
